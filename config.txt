@@ -1,0 +1,28 @@
+babel
+-------
+
+npm i @babel/preset-env @babel/cli @babel/core
+
+---------------------------------------------------
+
+webpack
+--------
+
+npm i -D webpack webpack-cli webpack-dev-server
+
+npm i html-webpack-plugin copy-webpack-plugin clean-webpack-plugin
+
+npm i babel-loader style-loader css-loader sass-loader file-loader sass
+
+------------------------------------------------------------------------
+
+JSON
+------
+
+"scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  }
+
+  -----------------------------------------------------------
