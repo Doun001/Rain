@@ -115,6 +115,12 @@ a {
   margin-left: 15%;
 }
 
+#prevision:target ._foot_txt_prev{
+  color: $color-txt;
+}
+#carte:target ._foot_txt_carte{
+  color: $color-txt;
+}
 /* ////////////////////////////////////////SEARCH//////////////////////////////////////// */
 
 .search input {
