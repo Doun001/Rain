@@ -71,24 +71,26 @@ header {
   width: 100%;
   padding-top: 3%;
   padding-left: 27%;
-}
-
-.head-img {
-  float: left;
-}
-
-.head-txt {
+  &.head-img {
+    float: left;
+  }
+  
+&.head-txt {
   margin-left: 32%;
   padding-top: 10%;
   color: #ffffff;
   font-size: 20px;
   font-family: sans-serif;
 }
+}
+
+
+
 
 /* /////////////////////////MAIN///////////////////////// */
 
 main {
-  height: 70%;
+  height: 68%;
   width: 100%;
 }
 
@@ -96,15 +98,11 @@ main {
 
 footer {
   display: flex;
-  height: 7.5%;
+  height: 12%;
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-color: #d9d9d9;
-  padding-top: 1%;
-//  &_foot_div_prev{
-
-//  }
+  background-color: #004cff;
 }
 
 a {
