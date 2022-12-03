@@ -165,3 +165,31 @@ a {
   float: left;
   margin: auto;
 }
+
+.content{
+  height: 78%;
+&__preci{
+  height: 72%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+&__time{
+  width: 80%;
+  height: 15%;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  &__bg{
+    height:57px;
+    width: 25%;
+    border-radius: 30px;
+    background-color: #0075FF;
+    position: absolute;
+    left: 10%;
+  }
+}
+}
+}
