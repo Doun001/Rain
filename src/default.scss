@@ -95,13 +95,19 @@ main {
 /* /////////////////////////FOOTER///////////////////////// */
 
 footer {
-  height: 10%;
+  display: flex;
+  height: 7.5%;
   width: 100%;
+  justify-content: space-around;
+  align-items: center;
   background-color: #d9d9d9;
   padding-top: 1%;
+//  &_foot_div_prev{
+
+//  }
 }
 
-footer a {
+a {
   font-family: sans-serif;
   font-size: 20px;
   text-decoration: none;
