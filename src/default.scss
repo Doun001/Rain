@@ -102,7 +102,7 @@ footer {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-color: #004cff;
+  background-color: $bgc-two;
 }
 
 a {
@@ -120,8 +120,8 @@ a {
   color: $color-txt;
 }
 /* ////////////////////////////////////////SEARCH//////////////////////////////////////// */
-
-.search input {
+.search{
+  &__input{
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 5px 0 0 5px;
   box-shadow: 0 2px 0 #000;
@@ -132,25 +132,24 @@ a {
   margin-left: 7%;
   padding-left: 2%;
   color: #fff;
-}
-
-.search input::placeholder {
-  color: #fff;
-}
-
-.search button {
-  background-color: rgba(255, 255, 255, 0.25);
-  border: 1px solid #444;
-  border-radius: 0 5px 5px 0;
-  box-shadow: 0 2px 0 #000;
-  color: #fff;
-  float: left;
-  height: 40px;
-  line-height: 40px;
-  width: 80px;
-}
-.search button:hover {
-  color: #5f5;
+  ::placeholder {
+    color: #fff;
+  }
+  }
+  &__button {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid #444;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 0 #000;
+    color: #fff;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    :hover {
+      color: #5f5;
+    }
+  }
 }
 
 /* ////////////////////////////////////////CLOUD//////////////////////////////////////// */
@@ -177,7 +176,7 @@ a {
 &__time{
   width: 80%;
   height: 15%;
-  background-color: #D9D9D9;
+  background-color: $bgc-two;
   border-radius: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -189,6 +188,7 @@ a {
     background-color: #0075FF;
     position: absolute;
     left: 10%;
+    z-index: 10;
   }
 }
 }
