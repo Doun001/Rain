@@ -25,13 +25,13 @@
     </main>
     
 
-
+<!-- /////////////////////////////////////////////PREVISIONS-PAGE -->
 
     <main id="prev-page">
         <section class= "container">
             <header class="header">
-                <div class="header__div-header">
-                    <div class="img">
+                <div class="header__div">
+                    <div class="header__div__img">
                         <img src="./assets/images/logo_RainAlert.png" alt="">
                     </div>
                     <div><h1>RainAlert</h1>
@@ -44,8 +44,8 @@
                     <div class="art-search__div__map-search ">
         <section class="search">
           <form action="" method="">
-            <input type="search" placeholder="Verviers, Belgique" class="search__input"/>
-            <button class="search__button">Search</button>
+            <input type="search" placeholder="Verviers, Belgique" class="search__input" required/>
+            <button class="search__button" onclick="toggle_text();">Search</button>
           </form>
         </section>
                     </div>
@@ -53,13 +53,10 @@
 
             <article class="content">
                 <div class="content__weather">
-                    <div class="content__weather__img-weather"> <img src="assets/images/cloud.png" alt="weather"></div>
-                <div>
-                    <h1 class="content__weather__img-weather_txt">20°C</h1>
-                </div>
             </div>
             <div class="content__pluie">
-                <p class="content__pluie__txt">Il ne pleut pas pour le moment</p>
+                <p><img src="assets/images/cloud.png" alt="weather"><h1 class="content__weather__img-weather_txt">20°C <br></h1></p>
+                <p class="content__pluie__txt"><br> Il ne pleut pas pour le moment</p></div>
             </div>
 
 
@@ -68,7 +65,7 @@
                     <div class="content__preci__graph__top"><h3>Précipitation</h3>
                         <div class="content__preci__graph__top__fia">
                             <h3>Fiabilité</h3>
-                            <h6 class="content__preci__graph__top__fia__pourc">0%</h6>
+                            <h6 class="content__preci__graph__top__fia__pourc">100%</h6>
                         </div>
                     </div>
                     <div class="content__preci__graph__bot">
@@ -99,33 +96,32 @@
 
 
             <footer class="footer">
-                <div class="footer_div-cloud">
-                    <div class="img">
+                <div>
+                    <div class="footer__img">
                         <img src="./assets/images/rain.png" alt="">
                     </div>
                     <a href="#prev-page"><p class="txt-prev">Prévision</p></a>                  
                 </div>
                 <div>
-                    <div class="img">
+                    <div class="footer__img">
                         <img src="./assets/images/place.png" alt="">
                     </div>
-                    <a href="#cart-page"><p class="txt-map">Carte</p></a></div>
+                    <a href="#cart-page"><p class="txt-map">Carte</p></a>
+                </div>
             </footer>
         </section>
     </main>
 
-
-
+<!-- /////////////////////////////////////////////CARTE-PAGE -->
 
     <main id="cart-page">
         <section class= "container">
             <header class="header">
-                <div class="header__div-header">
-                    <div class="img">
+                <div class="header__div">
+                    <div class="header__div__img">
                         <img src="./assets/images/logo_RainAlert.png" alt="">
                     </div>
-                    <div>
-                      <h1>RainAlert</h1>
+                    <div><h1>RainAlert</h1>
                     </div>
                 </div>
             </header>
@@ -150,14 +146,14 @@
 
 
             <footer class="footer">
-                <div class="footer_div-cloud">
-                    <div class="img">
+                <div>
+                    <div class="footer__img">
                         <img src="./assets/images/rain.png" alt="">
                     </div>
                     <a href="#prev-page"><p class="txt-prev">Prévision</p></a>                  
                 </div>
                 <div>
-                    <div class="img">
+                    <div class="footer__img">
                         <img src="./assets/images/place.png" alt="">
                     </div>
                     <a href="#cart-page"><p class="txt-map">Carte</p></a>

@@ -2,6 +2,8 @@
 @import './variables.scss';
 
 
+
+
 /* ////////////////////////////////////////RESET//////////////////////////////////////// */
 
 ::before,::after,* {
@@ -119,7 +121,7 @@ h3{
     align-items: center;
     justify-content: center;
     &__img-weather{
-      padding-right:10px ;
+      padding-right: 10px;
 }
 }
   &__pluie{
@@ -129,6 +131,7 @@ h3{
     align-items: center;
   &__txt{
       color: #ffffff;
+      padding-left: 5%;
   }
   }
   &__preci{
@@ -228,30 +231,32 @@ h3{
   height: 10%;
   display: flex ;
   justify-content: center;
-  &__div-header{
+  &__div{
     display: flex;
     align-items: center;
     justify-content: center;
+    &__img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
 
-.img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 .footer{
-  height: 10%;
+  height: 12%;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #fff;
-  &__div-cloud{
-      display: flex;
-  flex-direction: column;
+  &__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 #prev-page:target .txt-prev{
@@ -259,7 +264,4 @@ h3{
 }
 #cart-page:target .txt-map{
   color: $color-txt;
-}
-.footer__div-cloud{
-  border: 20px solid;
 }
