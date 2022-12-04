@@ -7,80 +7,165 @@
     <title>Rain Alert</title>
   </head>
   <body>
-    <section id="welcome">
-      <a href="#prevision">
-        <div class="logo">
-          <section class="wrap">
-            <div class="text-logo">
-              <img src="./assets/images/logo_RainAlert.png" alt="" class="logo" />
+    <main class="welc-page" id="welc-page">
+      <a href="#prev-page">
+        <section class="home__section">
+            <div class="home__section__content"> 
+                <div class="home__section__content__img-home">
+                <img src="./assets/images/logo_RainAlert.png" alt="logo">
+                <div class="home__section__content__img-home__txt">
+                       <h1>RainAlert</h1>
+                <p>Préparez-vous <br>
+                    pour la pluie</p>
+                </div>
             </div>
-            <div class="text-logo">
-              <h1 class="title">Rain Alert</h1>
-              <p class="text-w-p">Préparez-vous pour la pluie</p>
             </div>
-          </section>
-        </div>
-      </a>
-    </section>
-    <section id="prevision" class="out">
-      <header class="head">
-        <p class="head__img"><img src="./assets/images/logo_RainAlert.png" alt="" /></p>
-        <p class="head__img">RainAlert</p>
-      </header>
-      <main>
+        </section>
+  </a>
+    </main>
+    
+
+
+
+    <main id="prev-page">
+        <section class= "container">
+            <header class="header">
+                <div class="header__div-header">
+                    <div class="img">
+                        <img src="./assets/images/logo_RainAlert.png" alt="">
+                    </div>
+                    <div><h1>RainAlert</h1>
+                    </div>
+                </div>
+            </header>
+
+            <article class="art-search">
+                <div class="art-search__div">
+                    <div class="art-search__div__map-search ">
         <section class="search">
           <form action="" method="">
-            <input type="search" placeholder="Verviers" class="search__input"/>
+            <input type="search" placeholder="Verviers, Belgique" class="search__input"/>
             <button class="search__button">Search</button>
           </form>
         </section>
-        <div class="t">
-          <p class="t-img">
-            <img src="./assets/images/cloud.png" alt="" />
-          </p>
-          <p class="temp">20°C</p>
-          <p class="cloud">Il ne pleut pas pour le moment</p>
-        </div>
-        <div class="mid">
-          <img src="./assets/images/precipitation.png" alt="" class="mid__img">
-        </div>
-          <div class="precipitation__time">
-              <div class="precipitation__time__bg"></div>
-              <p class="precipitation__time__txt">12:00</p>
-              <p>13:00</p>
-              <p>14:00</p>
-              <p>15:00</p>
-          </div>
-    </article>
-      </main>
-      <footer>
-        <a href="#prevision">
-        <div class="_foot_div_prev"><div class="_foot_img">
-        <img src="./assets/images/rain.png" alt="" /></div>
-       <p class="_foot_txt_prev"> Prévisions</p></div></a>
-       <a href="#carte">
-        <div class="_foot_div_carte"><div class="_foot_img">
-        <img src="./assets/images/place.png" alt="" /></div>
-       <p class="_foot_txt_carte">Carte</p></div></a>
-      </footer>
-    </section>
-    <section id="carte" class="out">
-      <header>
-        <p class="head__img"><img src="./assets/images/logo_RainAlert.png" alt="" /></p>
-        <p class="head__img">RainAlert</p>
-      </header>
-      <main></main>
-      <footer>
-        <a href="#prevision">
-        <div class="_foot_div_prev"><div class="_foot_img">
-        <img src="./assets/images/rain.png" alt="" /></div>
-       <p class="_foot_txt_prev"> Prévisions</p></div></a>
-       <a href="#carte">
-        <div class="_foot_div_carte"><div class="_foot_img">
-        <img src="./assets/images/place.png" alt="" /></div>
-       <p class="_foot_txt_carte">Carte</p></div></a>
-      </footer>
-    </section>
-  </body>
-  <script src="./index.js"></script>
-</html>
+                    </div>
+            </article>
+
+            <article class="content">
+                <div class="content__weather">
+                    <div class="content__weather__img-weather"> <img src="assets/images/cloud.png" alt="weather"></div>
+                <div>
+                    <h1 class="content__weather__img-weather_txt">20°C</h1>
+                </div>
+            </div>
+            <div class="content__pluie">
+                <p class="content__pluie__txt">Il ne pleut pas pour le moment</p>
+            </div>
+
+
+            <div class="content__preci">
+                <div class="content__preci__graph">
+                    <div class="content__preci__graph__top"><h3>Précipitation</h3>
+                        <div class="content__preci__graph__top__fia">
+                            <h3>Fiabilité</h3>
+                            <h6 class="content__preci__graph__top__fia__pourc">0%</h6>
+                        </div>
+                    </div>
+                    <div class="content__preci__graph__bot">
+                        <div class="content__preci__graph__bot__niveau">
+                            <div class="content__preci__graph__bot__niveau__fmf"><div><img src="./assets/images/gouttess.png" alt=""></div>Fortes</div>
+                            <div class="content__preci__graph__bot__niveau__fmf"><div><img src="./assets/images/gouttes.png" alt=""></div>Moyens</div>
+                            <div class="content__preci__graph__bot__niveau__fmf"><div><img src="./assets/images/goutte.png" alt=""></div>Faibles</div>
+                        </div>
+                        <div class="content__preci__graph__bot__niveau__graph">
+                            <div class="content__preci__graph__bot__niveau__graph__top"><div class="content__preci__graph__bot__niveau__graph__top__bg"></div></div>
+                            <div class="content__preci__graph__bot__niveau__graph__time"> <p>12:00</p>
+                            <p>13:00</p>
+                            <p>14:00</p>
+                            <p>15:00</p>
+                        </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="content__preci__time">
+                    <div class="content__preci__time__bg"></div>
+                    <p class="content__preci__time__1">12:00</p>
+                    <p>13:00</p>
+                    <p>14:00</p>
+                    <p>15:00</p>
+                </div>
+            </div>
+            </article>
+
+
+            <footer class="footer">
+                <div class="footer_div-cloud">
+                    <div class="img">
+                        <img src="./assets/images/rain.png" alt="">
+                    </div>
+                    <a href="#prev-page"><p class="txt-prev">Prévision</p></a>                  
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="./assets/images/place.png" alt="">
+                    </div>
+                    <a href="#cart-page"><p class="txt-map">Carte</p></a></div>
+            </footer>
+        </section>
+    </main>
+
+
+
+
+    <main id="cart-page">
+        <section class= "container">
+            <header class="header">
+                <div class="header__div-header">
+                    <div class="img">
+                        <img src="./assets/images/logo_RainAlert.png" alt="">
+                    </div>
+                    <div>
+                      <h1>RainAlert</h1>
+                    </div>
+                </div>
+            </header>
+
+            <article class="art-search">
+                <div class="art-search__div">
+                    <div class="art-search__div__map-search ">
+                        
+        <section class="search">
+          <form action="" method="">
+            <input type="search" placeholder="Verviers, Belgique" class="search__input"/>
+            <button class="search__button">Search</button>
+          </form>
+        </section>
+                    </div>  
+                </div>
+            </article>
+
+            <article class="content">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79470.6085502025!2d5.869270399999997!3d50.587617900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c08bc4605114a5%3A0xdaf4b89d1eaedcad!2sVerviers!5e0!3m2!1sfr!2sbe!4v1670140703887!5m2!1sfr!2sbe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="content__cart"></iframe>
+            </article>
+
+
+            <footer class="footer">
+                <div class="footer_div-cloud">
+                    <div class="img">
+                        <img src="./assets/images/rain.png" alt="">
+                    </div>
+                    <a href="#prev-page"><p class="txt-prev">Prévision</p></a>                  
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="./assets/images/place.png" alt="">
+                    </div>
+                    <a href="#cart-page"><p class="txt-map">Carte</p></a>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+    </html>
+
